@@ -1,0 +1,33 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: 50px;
+    background: fuchsia;
+    overflow: auto;
+    
+    
+}
+
+li{
+   /*tambien se puede usar display: inline-block*/
+    width: 100px;
+    text-align: center;
+    float: left;
+   
+   
+}
+
+a{
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+ a:hover{
+     background: rosybrown;
+     color:white;
+ }
